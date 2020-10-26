@@ -1,0 +1,76 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "frontend-tests;check-for-transactions",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Check for transactions",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The browser is open",
+            "match": {
+              "location": "features\\support\\steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 541000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "open player list",
+            "match": {
+              "location": "features\\support\\steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3434000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "click on Show Transactions",
+            "match": {
+              "location": "features\\support\\steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 118000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "transactions are displayed",
+            "match": {
+              "location": "features\\support\\steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "frontend-tests",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Frontend tests",
+    "tags": [],
+    "uri": "features\\myTest.feature"
+  }
+]
