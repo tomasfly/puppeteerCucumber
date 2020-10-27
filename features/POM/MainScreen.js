@@ -1,0 +1,3 @@
+class MainScreen extends Page
+{
+}

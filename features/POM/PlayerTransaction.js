@@ -1,0 +1,3 @@
+class PlayerTransaction extends Page {
+
+}
